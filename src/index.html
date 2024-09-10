@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <section>
+        <form class="user-input" id="form">
+          <!-- <label for="nooflifts">No of Lifts</label> -->
+          <input
+            type="number"
+            placeholder="Enter no of lifts"
+            name="nooflifts"
+            id="nooflifts"
+          />
+          <!-- <label for="nooffloors">No of Floors</label> -->
+          <input
+            type="number"
+            placeholder="Enter no of floors"
+            name="nooffloors"
+            id="nooffloors"
+          />
+          <button id="generateBtn" type="submit">Generate</button>
+        </form>
+      </section>
+      <section class="floors-container"></section>
+      <button id="test-button">Test</button>
+    </main>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
